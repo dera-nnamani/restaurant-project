@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero--section {
+  background-image: url("/bootstrap1/pexels-ella-olsson-1640777.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bamboo--image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+button {
+  color: red;
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+.grid--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal-width columns */
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px; /* Gap between grid items */
+  width: 100px;
+  height: 100px;
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.menu--section {
+  background-color: white;
+}
+.about--section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about--image {
+  display: flex;
+  justify-content: space-between;
+}
